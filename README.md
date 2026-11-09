@@ -1,13 +1,13 @@
 # NIMR SAV V24 — Recette frontend 2026
 
-Page publique de présentation de l'interface NIMR SAV V24.
+Pages publiques indépendantes, réservées à la présentation de V24 :
 
-- Accueil : https://irondrass.github.io/NIMR-SAV-V24-2026/
-- Interface React compilée : https://irondrass.github.io/NIMR-SAV-V24-2026/app/
-- Projet source privé **non copié** dans ce dépôt : le site contient uniquement une compilation statique et un écran d'accueil.
+- [Accueil V24](https://irondrass.github.io/NIMR-SAV-V24-2026/)
+- [**Démonstration interactive**](https://irondrass.github.io/NIMR-SAV-V24-2026/demo/) : trois dossiers fictifs, recherche, états, planning, paramètres et création d'un dossier d'exemple. Tout reste en mémoire de la page et disparaît au rechargement.
+- [Interface technique non connectée](https://irondrass.github.io/NIMR-SAV-V24-2026/app/) : compilation directe de l'interface React V24, écran d'activation sans backend.
 
-**Attention : ce site n'est pas une application de production.** Le backend Supabase V24 n'est pas connecté. Les fonctions de données (activation des appareils, devis, dossiers, planning réel) ne sont pas utilisables. Ne saisissez ni données clients ni jetons réels.
+**Ce dépôt ne contient aucun backend opérationnel et n'est pas destiné à la production.** Les données de démonstration sont fictives. Aucun code appareil réel, VIN réel, numéro de téléphone ou donnée client ne doit être saisi.
 
-Déploiement indépendant : l'application existante V23 et l'ancienne recette V24 ne sont pas modifiées.
+Le mode démonstration est compilé depuis une copie locale isolée, avec un service de données fictives et sans appel à Supabase. Ce dépôt ne contient aucun code serveur, migration SQL, clé secrète ou fichier source TypeScript.
 
-Publié depuis une construction locale contrôlée de la branche V24, sans fichiers SQL, secrets, fichiers source TypeScript ni source maps.
+Les projets de production V23, source privée NIMR-SAV et ancienne recette V24 ne sont pas modifiés.
