@@ -13,3 +13,5 @@ Le mode démonstration est compilé depuis une copie locale isolée, avec un ser
 Les projets de production V23, source privée NIMR-SAV et ancienne recette V24 ne sont pas modifiés.
 
 - [Recette connectée à Supabase](https://irondrass.github.io/NIMR-SAV-V24-2026/recette/) : accès par appareil autorisé, données strictement fictives, backend V24 séparé de V23. Aucune activation publique et aucun vrai dossier client.
+
+**Sécurité recette (10/11/2026) :** le jeton appareil est conservé seulement en mémoire pendant l’onglet actif. Actualiser la page oblige une nouvelle activation. La recette sur le domaine GitHub Pages partagé reste limitée aux données fictives. Un domaine dédié est nécessaire avant toute donnée client ou activation réelle.
